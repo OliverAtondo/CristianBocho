@@ -6,7 +6,7 @@
 //
 
 import CoreBluetooth
-import SwiftUI
+import SwiftUI 
 
 class BluetoothManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate, ObservableObject {
     private var centralManager: CBCentralManager!

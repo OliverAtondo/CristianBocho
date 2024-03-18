@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View { 
     @StateObject private var bluetoothManager = BluetoothManager()
     
     var body: some View {
